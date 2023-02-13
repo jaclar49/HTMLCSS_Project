@@ -45,6 +45,7 @@ li {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0  5%;
 }
 
 .nav {
@@ -130,6 +131,10 @@ p {
 
 /*LANDING*/
 
+.landing {
+    padding: 98px 0;
+}
+
 .get__started {
     display: flex;
     flex-direction: column;
@@ -157,7 +162,11 @@ p {
     color: white;
     border: none;
     font-weight: bold;
-    margin-left: -50px;
+    margin-left: -135px;
+    position: relative;
+    cursor: pointer;
+    height: 55px;
+    font-weight: bold;
 }
 
 .enter__email {
@@ -165,4 +174,25 @@ p {
     border-radius: 50px;
     opacity: 0.5;
     padding-right: 50px;
+    width: 80%;
+    height: 70px;
+    margin-bottom: 80px;
+}
+
+.trusted__customers {
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.customers {
+    width: 100%;
+    padding-top: 16px;
+}
+
+.design__logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
 }
