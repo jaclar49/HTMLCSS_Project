@@ -45,7 +45,6 @@ li {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0  5%;
 }
 
 .nav {
@@ -131,14 +130,15 @@ p {
 
 /*LANDING*/
 
-.landing {
-    padding: 98px 0;
+.container {
+    padding: 80px 0;
 }
 
 .get__started {
     display: flex;
     flex-direction: column;
     width: 40%;
+    flex: 1;
 }
 
 .trusted__customers {
@@ -152,6 +152,10 @@ p {
     font-size: 1.125rem;
     opacity: 0.8;
     line-height: 150%;
+}
+
+.two__columns {
+    display: flex;
 }
 
 .st__button{
@@ -187,12 +191,33 @@ p {
 }
 
 .customers {
+    display: flex;
     width: 100%;
     padding-top: 16px;
 }
 
 .design__logo {
     display: flex;
-    flex-wrap: wrap;
     width: 60%;
+}
+
+.design__img {
+    width: 100%;
+}
+
+/*FEATURES*/
+
+.feature__header {
+    justify-content: center;
+    text-align: center;
+}
+
+.feature__para {
+    font-size: 1.25rem;
+    padding-top: 16px;
+    margin: 0 auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    line-height: 1.25;
+    opacity: 0.5;
 }
