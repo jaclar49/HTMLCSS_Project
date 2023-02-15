@@ -18,6 +18,22 @@ nav {
     padding: 0 12px;
 }
 
+.title {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.025em;
+}
+
+.desc {
+    margin-top: 0.25rem;
+    font-weight: 500;
+    line-height: 2;
+    --tw-text-opacity: 1;
+    color: rgb(124 139 161 / var(--tw-text-opacity));
+}
+
 .purple__txt {
     color: #7342d6;
 }
@@ -220,4 +236,20 @@ p {
     padding-right: 25%;
     line-height: 1.25;
     opacity: 0.5;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 96px 0;
+}
+
+.service {
+    display: flex;
+    width: calc(100%/3);
+}
+
+.service__desription {
+    display: flex;
+    flex-direction: column;
 }
