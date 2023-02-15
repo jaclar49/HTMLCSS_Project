@@ -253,3 +253,18 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+.features__img {
+    border: 2px solid #7342d627;
+    color: #7342d6;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    font-size: 32px;
+    margin-bottom: 24px;
+    padding: 20px;
+}
+
